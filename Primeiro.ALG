@@ -3,7 +3,8 @@ var
 msg: caractere
 
 inicio
-Escreval("Ola, Mundo!")
-Escreva("Me livrei da maldicao!")
+msg <- "Ola, Mundo!"
+Escreval("Mensagem ", msg)
+
 
 fimalgoritmo
