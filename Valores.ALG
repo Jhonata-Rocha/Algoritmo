@@ -1,12 +1,13 @@
 algoritmo "valores"
 var
-N1, N2, S: Inteiro
+   N1, N2: Inteiro
+   M: Real
 inicio
-Escreva ("Informe um numero: ")
-Leia (N1)
-Escreva ("Informe um numero: ")
-Leia (N2)
-S <- N1 + N2
- Escreva (" A soma entre ",N1, " e ",N2," é igual a ", S)
+      Escreva ("Informe um numero: ")
+      Leia (N1)
+      Escreva ("Informe um numero: ")
+      Leia (N2)
+      M <- (N1 + N2) /2
+      Escreva (" A media entre",N1, " e",N2," é igual a", M," :)")
 
 fimalgoritmo
