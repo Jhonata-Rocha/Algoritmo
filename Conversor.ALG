@@ -1,9 +1,10 @@
-algoritmo "Calc"
+algoritmo "conversor"
 var
-   A: Real
+   angulo, S: Real
 
 inicio
-      A <- Sen(GraupRad(90))
-      Escreva (A)
-
+      Escreva ("Informe um angulo: ")
+      Leia (angulo)
+      S <- Sen(GraupRad(angulo))
+      Escreva("O Seno de " , angulo," e igual a", S)
 fimalgoritmo
